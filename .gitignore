@@ -7,7 +7,6 @@
 .history
 # testing
 /coverage
-/public
 # production
 /build
 
