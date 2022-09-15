@@ -1,0 +1,36 @@
+.item-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item {
+    border: 1px solid black;
+    margin: 2px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    /* padding: 5px 10px 5px; */
+}
+
+
+.box-icon {
+    line-height: 6px;
+    height: 10px;
+    border: 2px solid #fa5454;
+    background-color: #fa5454;
+    color: #ece6e6;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    padding: 0;
+    display: none;
+}
+
+.item:hover {
+    background-color: #e1ebeb;
+}
+
+.item:hover>.box-icon {
+    display: inline
+}
